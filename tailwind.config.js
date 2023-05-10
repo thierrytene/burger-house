@@ -138,6 +138,7 @@ export default {
     },
     caretColor: ({ theme }) => theme('colors'),
     colors: ({ colors }) => ({
+      'primary': '#234874',
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,

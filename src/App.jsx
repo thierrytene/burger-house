@@ -1,10 +1,11 @@
 import "./assets/css/style.css"
+import Router from "./Router"
 
 function App() {
 
   return (
     <>
-      <h1 className="bg-red-500">Burger House</h1>
+      <Router/>
     </>
   )
 }
